@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Do You Love Me?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-gradient" aria-hidden="true"></div>
+  <img class="bg-cat-hero" src="assets/cat-reference-transparent.png" alt="" aria-hidden="true" />
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+  </div>
+  <div id="floatLayer" class="float-layer" aria-hidden="true"></div>
+
+  <main class="card">
+    <div id="catExpression" class="tab-cat-expression" aria-hidden="true"></div>
+    <h1>Seleucia, my lady kitten</h1>
+    <p class="question">Do you love me?</p>
+
+    <div class="buttons" id="buttons">
+      <button id="yesBtn" class="btn yes">Yes</button>
+      <button id="noBtn" class="btn no">No</button>
+    </div>
+
+    <p id="resultMessage" class="result" aria-live="polite"></p>
+  </main>
+
+  <div id="popup" class="popup hidden" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
